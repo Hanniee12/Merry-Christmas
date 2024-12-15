@@ -48,7 +48,11 @@ body {
     left:0%; 
     transform: translate(-50%, -40%); 
 }
-
+.envelope.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none; 
+}
 .btn {
     padding: 12px 24px;
     background-color: #ff6f00;
